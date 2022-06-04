@@ -1,0 +1,135 @@
+@media (max-width:1200px){
+
+}
+@media (max-width:991px){
+    .promo{
+        .header{
+            padding: 0 10px;
+            &__logo{
+                width: 190px;
+            }
+            &__official{
+                font-size: 11px;
+                span{
+                    font-size: 16px;
+                }
+            &__phone{
+                font-size: 16px;
+                }
+        }
+            
+        }
+        
+        &__wrapper{
+            align-items: center;
+            padding-right: 0;
+        }
+    }
+    .advantages{
+        
+        &__icons{
+            display: block;
+        }
+        &__text{
+            display: block;
+            margin: 20px auto;
+        }
+
+    }
+.consultation{
+    min-height: 600px;
+    padding: 50px 0 100px 0;
+
+    
+    .title{
+        text-align: center;
+        font-size: 32px;
+    }
+    &__descr{
+        text-align: center;
+    }
+    .feed-form{
+        margin: auto;
+        margin-top: 36px;
+    }
+}
+
+}
+@media (max-width:767px){
+    .promo{
+        min-height: 565px;
+        &__header{
+            font-size: 35px;
+            line-height: 35px;
+        }
+        &__subheader{
+            font-size: 20px;
+            line-height: 20px;
+        }
+        &__wrapper{
+            margin-top: 35px;
+        }
+        &__icons{
+            width: 380px;
+            margin-top: 45px;
+        }
+        &__icon{
+            font-size: 12px;
+        }
+    }
+    .button_main{
+        margin-top: 50px;
+        width: 270px;
+        height: 45px;
+        font-size: 15px;
+    }
+    .consultation{
+        .title{
+            font-size: 26px;
+        }
+        &__descr{
+            font-size: 16px;
+        }
+    }
+    
+}
+@media (max-width:575px){
+    .promo{
+        .header{
+            &__official{
+                display: none;
+            } 
+            &__phone{
+                font-size: 16px;
+                }
+        }
+        &__header{
+            font-size: 26px;
+            line-height: 26px;
+        }
+        &__subheader{
+            font-size: 15px;
+            line-height: 15px;
+        }
+        &__icons{
+            width: 353px;
+            margin-top: 45px;
+        }
+    }
+
+    .advantages{
+        .title{
+            font-size: 27px;
+        }
+    }
+    
+    .consultation{
+        .title{
+            font-size: 22px;
+        }
+        &__descr{
+            font-size: 14px;
+        }
+    }
+}
+    
